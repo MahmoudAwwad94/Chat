@@ -1,0 +1,21 @@
+{
+  "name": "chat_project",
+  "version": "1.0.0",
+  "description": "stand alone chat project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "git": "^0.1.5",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0"
+  }
+}

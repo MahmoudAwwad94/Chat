@@ -1,0 +1,21 @@
+{
+  "name": "chat_project",
+  "description": "stand alone chat project",
+  "main": "index.js",
+  "authors": [
+    "Mahmoud Awwad <mahmoud@clearmove.io>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.5",
+    "angular": "angularjs#^1.6.6"
+  }
+}
