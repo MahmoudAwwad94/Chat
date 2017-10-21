@@ -2,15 +2,29 @@
 <html class="no-js" lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="fragment" content="!" />
+
+  <meta name="description" content="">
+  <meta name="author" content="">
   <base href="/">
+  <meta property="ix:host" content="assets.imgix.net">
+  <meta property="ix:useHttps" content="false">
+
+
+  <title>Chat</title>
+
 </head>
 
-<body>
-  test
+<body id="app">
+  <header id="header"></header>
+  <div ui-view name="main">
+    <a href="test">click</a>
+
+  </div>
+
+  <script data-main="app/js/boot.js" src="bower_components/requirejs/require.js"></script>
 </body>
 
 </html>
