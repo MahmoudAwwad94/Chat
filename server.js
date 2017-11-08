@@ -7,7 +7,7 @@ var request = require('request');
 
 app.engine('jade', require('jade').__express);
 
-app.use(express.static(__dirname + '/'));
+// app.use(express.static(__dirname + '/'));
 app.use('/node_modules', express.static(__dirname + '/node_modules'));
 app.use('/bower_components', express.static(__dirname + '/bower_components'));
 app.use('/app', express.static(__dirname + '/app'));
@@ -26,6 +26,11 @@ app.use(bodyParser.json({
 }));
 
 app.use(methodOverride());
+
+
+app.all('/*', function(req, res) {
+  res.sendFile(__dirname + '/index.html');
+});
 
 app.listen(8881);
 console.log("Chat is listening on port 8881");

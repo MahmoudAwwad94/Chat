@@ -1,5 +1,3 @@
-define('app', function(app) {
-  app.controller('homeController', ['$rootScope', "$scope", function($rootScope, $scope) {
-    console.log("test123");
-  }]);
-});
+chat.controller('chatMain', ['$rootScope', "$scope", function($rootScope, $scope) {
+  console.log("123");
+}]);
